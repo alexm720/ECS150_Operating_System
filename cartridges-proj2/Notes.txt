@@ -1,0 +1,8 @@
+1. cartridge-returnonly         (only sets the gp and sp and returns)
+2. cartridge-base               (good starting for any testing, calls RVCInitialize)
+3. cartridge-helloworld         (calls RVCWriteText)
+4. cartridge-controller-input   (reads controller and outputs character)
+5. cartridge-thread-switch      (creates a second thread switches to it and shoudl switch back to main)
+6. cartridge-thread-status      (same as previous but checks status/IDs)
+7. cartridge-thread-sleep       (sleeps the main thread, may be less dramatic in debug mode)
+8. cartridge-thread-wait        (creates multiple threads and calls wait)
